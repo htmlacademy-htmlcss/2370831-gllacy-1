@@ -42,6 +42,7 @@
               <span class="visually-hidden">
                 Поиск
               </span>
+            </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#openModal">Выход</a>
@@ -66,13 +67,15 @@
           </li>
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link">Сливочное мороженое</a>
+          </li>
         </ul>
         <h2>Сливочное мороженое</h2>
       </header>
       <section class="catalog-products">
         <h2 class="visually-hidden">Фильтры каталога</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-        <select class="select-control" aria-label="Сортировка">
+          <label for="select">Сортировка</label>
+        <select class="select-control" id="select">
           <option value="popular">По популярности</option>
           <option value="cheap">Сначала дешёвые</option>
           <option value="expensive">Сначала дорогие</option>
