@@ -149,4 +149,12 @@ article {
   width: 1170px;
   height: 534px;
 }
+
+.contacts-address {
+  border-radius: 16px;
+  background: url("../images/background/background-7.jpg"), lightgray 50% / cover no-repeat;
+  width: 1170px;
+  height: 492px;
+  padding: 64px 763px 64px 64px;
+}
 */
