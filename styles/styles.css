@@ -31,15 +31,36 @@ body {
 }
 
 a {
-  font-family: "Inter", sans-serif;
+
   color: #2D3440;
   font-weight: 400;
-  text-align: center;
+  /*text-align: center;*/
   text-decoration: none;
 }
 
-h2 {
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page-title {
+  font-size: 32px;
   font-weight: 900;
+}
+
+.description{
+  color: var(--basic-dark, #565C66);
+}
+.best-product-card {
+  font-size: 36px;
 }
 
 .title-center {
@@ -53,34 +74,60 @@ h2 {
   list-style-type: none;
 }
 
+.navigation-item-icon {
+  font-size: 14px;
+}
+
 .button {
   font-weight: 700;
   justify-content: center;
 }
 
-.best-product-card-button {
+.button-white {
+  font-weight: 700;
   text-align: center;
   padding: 12px 32px;
   border-radius: 26px;
-  border: 4px solid rgba(252, 252, 252, 0.40);
   background: var(--basic-extra-light, #FCFCFC);
-  box-shadow: 0px 4px 12px 0px rgba(45, 52, 64, 0.10);
+  box-shadow: 0 0 0 4px rgba(252, 252, 252, 0.40),0px 4px 12px 0px rgba(45, 52, 64, 0.10);
+}
+
+.button-red{
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px 32px;
+  border-radius: 26px;
+  background: var(--special-extra-bright, #FF2F64);
+  box-shadow: 0 0 0 4px #FF2F64,0px 4px 12px 0px rgba(45, 52, 64, 0.10);
 }
 .contacts-phone {
   font-family: "Inter", sans-serif;
   color: #2D3440;
   font-style: normal;
+  font-weight: 700;
 }
 
 .best-product-card {
   font-weight: 900;
+}
 
+.best-product-description {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.promotion-title {
+  font-size: 24px;
 }
 
 .promotion-item {
   background-color: #F79;
   width: 570px;
   height: 268px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding: 36px 200px 36px 36px;
 }
 
 .promotion-button {
@@ -94,39 +141,78 @@ h2 {
 
 .promotion-item-raspberry {
   background-image: url("../images/background/background-3.png");
-  width: 219px;
-  height: 268px;
-  padding: 36px 200px 36px 36px;
 }
 
 .promotion-item-marshmallow {
   background-image: url("../images/background/background-4.png");
-  width: 219px;
-  height: 268px;
-  padding: 36px 200px 36px 36px;
+}
+
+.product-card-title,
+.product-card-price {
+  font-size: 20px;
+}
+
+.product-card {
+  border-radius: 8px;
+  background: var(--basic-extra-light, #FCFCFC);
+  width: 270px;
+  text-align: center;
+}
+
+.product-card-price { /*Не работает*/
+  text-align: left;
 }
 
 .about {
   border-radius: 16px;
-  background: url("../images/background/background-8.jpg"), lightgray 50% / cover no-repeat;
+  background-image: url("../images/background/background-8.jpg");
+  background-size: cover;
+  background-position: center;
   width: 1170px;
   height: 480px;
   padding: 24px;
 }
 
-article {
+.about-title {
+  line-height: 46px;
+}
+
+.about-wrapper {
+  background: #FFF;
+  border-radius: 16px;
+  padding: 56px 40px;
+}
+
+.new-in-blog {
   border-radius: 16px;
   background: url(../images/background/background-5.jpg), lightgray 0px -109.926px / 112.632% 198.148% no-repeat;
   width: 570px;
   height: 224px;
   padding: 32.593px 235px 67.148px 32px;
 }
+/*Проверить*/
+.new-in-blog-title {
+  color: var(--basic-extra-dark, #2D3440);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
 
 .newsletter {
-  border-radius: 16px; background: url("../images/background/background-9.jpg"), lightgray 50% / cover no-repeat;
+  border-radius: 16px;
+  background-image: url("../images/background/background-9.jpg");
+  background-position: center;
+  background-size: cover;
   padding: 26px;
   width: 570px;
   height: 224px;
+}
+
+.newsletter-wrapper {
+  background: #FFF;
+  border-radius: 16px;
+  width: 558px;
+  padding: 26px;
 }
 
 .newsletter-button {
@@ -137,24 +223,77 @@ article {
   padding: 12px 32px;
 }
 
-.send {
-  color: var(--basic-extra-light, #FCFCFC);
-  text-align: center;
-  font-weight: 700;
-}
-/*
+/*Не работает*/
 .delivery {
   border-radius: 16px;
-  background: url("../images/background/background-6.jpg"), lightgray 1225.001px -138.441px / -104.701% 151.851% no-repeat;
+  background-image: url(../images/background/background-6.jpg);
+  background-position: center;
+  background-size: cover;
   width: 1170px;
   height: 534px;
 }
 
-.contacts-address {
+.delivery-data-wrapper {
+  width: 500px;
+  height: 406px;
+  border-radius: 8px;
+  background: var(--basic-extra-light, #FCFCFC);
+  box-shadow: 0px 15px 40px 0px rgba(45, 52, 64, 0.12);
+}
+
+.contacts {
   border-radius: 16px;
-  background: url("../images/background/background-7.jpg"), lightgray 50% / cover no-repeat;
+  background-image: url(../images/background/background-7.jpg);
+  background-position: center;
+  background-size: cover;
   width: 1170px;
   height: 492px;
-  padding: 64px 763px 64px 64px;
 }
-*/
+
+.address-title {
+  font-family: Inter;
+  font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+
+.contacts-wrapper {
+  width: 343px;
+  height: 364px;
+  border-radius: 8px;
+  background: var(--basic-extra-light, #FCFCFC);
+  box-shadow: 0px 8px 16px 0px rgba(45, 52, 64, 0.12);
+}
+
+.suppliers-item {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.for-suppliers {
+  font-weight: 700;
+}
+
+.about-text {
+  font-size: 12px;
+}
+
+/*Catalog*/
+.filters {
+  font-size: 14px;
+}
+.breadcrumbs-item {
+  font-weight: 700; /*Не работает жирность*/
+}
+
+.button-light { /*Некорректно подтягиваются стили кнопки*/
+  font-weight: 700;
+  text-align: center;
+  padding: 8px 32px;
+  border-radius: 20px;
+  border: 2px solid var(--basic-extra-light, #FCFCFC);
+  background: rgba(252, 252, 252, 0.30);
+}
+
+
+
