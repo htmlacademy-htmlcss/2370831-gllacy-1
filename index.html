@@ -6,9 +6,6 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
     <header class="page-header">
       <nav class="navigation">
         <a class="main-logo" href="#">
@@ -74,20 +71,20 @@
           <h2 class="visually-hidden">Лучшие предложения</h2>
           <ul class="best-product-list">
             <li class="best-product-item">
-          <h3 class="best-product-card page-title">Нежный пломбир с клубничным джемом</h3>
+          <h3 class="best-product-card best-product-card-title page-title">Нежный пломбир с клубничным джемом</h3>
           <p class="best-product-description">Натуральное мороженое из свежих сливок
             и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи.</p>
             <img class="product-card-image" src="images/ice-cream/ice-cream-1.png" width="327" height="507" alt="Пломбир с клубничным джемом">
             <a class="best-product-card-button button-white" href="#">Заказать</a>
             </li>
             <li class="best-product-item">
-              <h3 class="best-product-card page-title">Сливочное мороженое со вкусом банана</h3>
+              <h3 class="best-product-card best-product-card-title page-title">Сливочное мороженое со вкусом банана</h3>
           <p class="best-product-description">Сливочное мороженое с ярким банановым вкусом подарит вам свежесть и наслаждение даже в самый жаркий летний день.</p>
             <img class="product-card-image" src="images/ice-cream/ice-cream-2.png" width="312" height="507" alt="Сливочное мороженое со вкусом банана">
             <a class="best-product-card-button button-white" href="#">Заказать</a>
             </li>
             <li class="best-product-item">
-              <h3 class="best-product-card page-title">Карамельный пломбир с маршмеллоу</h3>
+              <h3 class="best-product-card best-product-card-title page-title">Карамельный пломбир с маршмеллоу</h3>
           <p class="best-product-description">Необычный сладкий десерт с карамельным топпингом и кусочками зефира завоюет сердца сладкоежек всех возрастов.</p>
             <img class="product-card-image" src="images/ice-cream/ice-cream-3.png" width="350" height="507" alt="Карамельный пломбир с маршмеллоу">
             <a class="best-product-card-button button-white" href="#">Заказать</a>
@@ -97,13 +94,13 @@
             <button><span class="visually-hidden">Вперёд</span></button>
             <button><span class="visually-hidden">Назад</span></button>
           </div>
-          <ul>
+          <ul class="slider-number">
             <li><button><span class="visually-hidden">Первый слайд</span></button></li>
             <li><button><span class="visually-hidden">Второй слайд</span></button></li>
             <li><button><span class="visually-hidden">Третий слайд</span></button></li>
           </ul>
           <footer class="best-product-footer">
-            <section class="contacts">
+            <section class="social">
               <ul class="social-list">
                 <li class="social-item">
                   <a class="social-link" href="https://t.me/htmlacademy">
@@ -125,7 +122,7 @@
           </footer>
         </section>
         <section class="promotion">
-          <h2 class="page-title title-center">Заказывайте мороженое и получайте подарки!</h2>
+          <h2 class="page-title promotion-main-title title-center">Заказывайте мороженое и получайте подарки!</h2>
           <ul class="promotion-list">
             <li class="promotion-item promotion-item-raspberry">
               <h3 class="promotion-title title">Малинка даром!</h3>
@@ -140,7 +137,7 @@
           </ul>
         </section>
         <section class="product">
-          <h2 class="page-title title-center">Попробуйте самые популярные вкусы нашего мороженого</h2>
+          <h2 class="page-title popular-product-title title-center">Попробуйте самые популярные вкусы нашего мороженого</h2>
           <ul class="product-list">
             <li class="product-item product-card">
               <a class="product-card-link" href="#">
@@ -228,16 +225,16 @@
               <label for="newsletter-email" class="visually-hidden">Email</label>
               <input class="field"  placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
 
-              <button class="button newsletter-button button-red" type="submit">
-                <span class="button button-red">Отправить</span>
-              </button>
+              <button class="button newsletter-button button-red" type="submit">Отправить</button>
 
             </form>
           </div>
         </section>
         <section class="delivery">
-          <h2 class="page-title">Доставка любимого мороженого на дом</h2>
-          <p class="description">Хочется полакомиться любимым десертом, но нет времени съездить в магазин? Закажите доставку мороженого на дом, и курьер привезёт вам ваш заказ в течение часа!</p>
+          <section class="delivery-about">
+            <h2 class="page-title delivery-title">Доставка любимого мороженого на дом</h2>
+            <p class="description">Хочется полакомиться любимым десертом, но нет времени съездить в магазин? Закажите доставку мороженого на дом, и курьер привезёт вам ваш заказ в течение часа!</p>
+          </section>
           <section class="delivery-data">
             <div class="delivery-data-wrapper">
               <h2 class="visually-hidden">Форма доставки</h2>
@@ -260,7 +257,7 @@
                   <input type="text" id="delivery-address" name="delivery-address" placeholder="ул. Большая Конюшенная, 19/8">
                 </p>
 
-                <button class="button button-red" type="submit">Отправить</button>
+                <button class="button delivery-button button-red" type="submit">Отправить</button>
               </form>
             </div>
           </section>
@@ -319,10 +316,10 @@
           </li>
         </ul>
       </section>
-      <a class="logo-academy" href="">
-          <img class ="logo-academy" src="images/html-academy-logo.svg" width="93" height="27" alt="Логотип HTML Academy">
-      </a>
-      <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>© 2021</p>
+        <a class="logo-academy" href="">
+            <img class ="logo-academy" src="images/html-academy-logo.svg" width="93" height="27" alt="Логотип HTML Academy">
+        </a>
+        <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>© 2021</p>
     </footer>
 
   </body>
