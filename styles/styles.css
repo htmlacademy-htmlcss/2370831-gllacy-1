@@ -22,6 +22,12 @@
   font-display: swap;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html{
   height: 100%;
 }
@@ -76,13 +82,13 @@ a {
   display: flex;
   margin: 0;
   padding: 0;
-  width: 705px;
+  max-width: 705px;
   list-style-type: none;
 }
 
 .navigation-list-icon {
   max-width: 510px;
-  margin-left: auto;
+  margin-left: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -91,6 +97,10 @@ a {
   display: block;
   padding: 8px 16px;
   flex-wrap: wrap;
+}
+
+.contacts-address {
+  margin-left: auto;
 }
 
 .main-container {
@@ -165,6 +175,7 @@ a {
   background: #FCFCFC;
   box-shadow: 0 0 0 4px rgba(252, 252, 252, 0.40),0px 4px 12px 0px rgba(45, 52, 64, 0.10);
   line-height: 20px;
+  display: inline-block;
 }
 
 .button-red{
@@ -179,6 +190,7 @@ a {
   background: #FF2F64;
   box-shadow: 0 0 0 4px rgba(255, 47, 100, 0.30),0px 4px 12px 0px rgba(45, 52, 64, 0.10);
   border: none;
+  display: inline-block;
 }
 
 .contacts-phone {
@@ -256,7 +268,9 @@ a {
 }
 
 .product-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 30px;
   justify-content: space-between;
   margin: 0;
   padding: 0;
@@ -303,8 +317,14 @@ a {
 }
 
 .about-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 32px;
   list-style-type: none;
+}
+
+.blog-and-newsletter {
+  display: flex;
 }
 
 .new-in-blog {
@@ -312,9 +332,9 @@ a {
   background: url("../images/background/background-5.jpg"), no-repeat;
   background-position: center;
   width: 570px;
-  height: 224px;
   padding: 33px 235px 67px 32px;
   margin-bottom: 80px;
+  margin-right: 30px;
 }
 
 .new-in-blog-title {
@@ -334,14 +354,13 @@ a {
   background: url("../images/background/background-9.jpg") no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 26px;
+  padding: 6px;
   width: 570px;
 }
 
 .newsletter-wrapper {
   background: #FFF;
   border-radius: 16px;
-  width: 558px;
   padding: 26px;
 }
 
@@ -358,6 +377,7 @@ a {
   background-size: cover;
   width: 1170px;
   height: 534px;
+  justify-content: space-between;
 }
 
 .delivery-title {
@@ -369,7 +389,6 @@ a {
   display: flex;
   flex-direction: column;
   max-width: 371px;
-  padding: 100px;
 }
 
 .delivery-data-wrapper {
@@ -385,6 +404,16 @@ a {
 .form-label {
   font-weight: 700;
   line-height: 20px;
+}
+
+.delivery-form{
+  display: grid;
+  grid-template-columns: 117px 287px;
+  gap: 20px 16px;
+}
+
+.delivery-address{
+  grid-column: 1/-1;
 }
 
 .contacts {
@@ -406,7 +435,7 @@ a {
 
 .contacts-wrapper {
   width: 343px;
-  height: 364px;
+  min-height: 364px;
   border-radius: 8px;
   background: #FCFCFC;
   box-shadow: 0px 8px 16px 0px rgba(45, 52, 64, 0.12);
@@ -485,7 +514,7 @@ a {
   flex-direction: column;
 }
 
-/*Catalog*/
+/*Каталог*/
 
 .catalog-title{
   margin-top: 0;
@@ -498,6 +527,7 @@ a {
 }
 
 .breadcrumbs {
+  display: flex;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -505,6 +535,7 @@ a {
 
 .breadcrumbs-item {
   font-weight: 700;
+  margin-right: 28px;
 }
 
 .button-light {
@@ -526,11 +557,25 @@ a {
   list-style-type: none;
 }
 
+.catalog-products {
+  margin-bottom: 44px;
+}
+
+.pagination-area {
+  display: flex;
+  margin: 41px;
+}
+
+.pagination-show-more {
+  justify-content: center;
+}
+
 .pagination {
   display: flex;
   margin: 0;
   padding: 0;
   list-style-type: none;
+  margin-left: auto;
 }
 
 
