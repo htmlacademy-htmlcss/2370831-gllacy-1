@@ -543,6 +543,10 @@ li.navigation-item:hover ul.navigation-list-sub{
   font-size: 14px;
 }
 
+.navigation-link-catalog{
+  margin-bottom: 8px;
+}
+
 .navigation-link-sub{
   padding: 6px 16px;
 }
@@ -557,12 +561,10 @@ li.navigation-item:hover ul.navigation-list-sub{
 
 .navigation-item-sub:first-child + .navigation-item-sub{
   border-top: solid 1px #B9B9B9;
-  margin-top: 12px;
   padding-top: 12px;
 }
 
 .navigation-item-sub:first-child{
-  margin: 8px 16px;
   font-weight: 700;
 }
 
@@ -1707,6 +1709,7 @@ span.tooltip-text::before{
   height: 24px;
   padding: 2px 8px;
   border-radius: 50px;
+  border: 1px solid transparent;
 }
 
 .pagination-current{
@@ -1720,7 +1723,7 @@ span.tooltip-text::before{
 
 .pagination-link:active{
   background-color: rgba(252, 252, 252, 0.50);
-  border: 1px solid #FCFCFC;
+  border-color:  #FCFCFC;
 }
 
 .pagination-prev{
