@@ -361,15 +361,16 @@ a {
   max-width: 705px;
   list-style-type: none;
   margin-right: -7px;
-  margin-left: 2px;
+  margin-left: -5px;
 }
 
 .navigation-list-icon {
   max-width: 510px;
-  margin-left: 20px;
+  margin-left: 15px;
+  margin-right: 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .navigation-link {
@@ -1170,7 +1171,7 @@ li.navigation-item:hover .catalog-arrow-down{
 
 .blog-and-newsletter {
   display: flex;
-  margin-bottom: 73px;
+  margin-bottom: 80px;
   align-items: flex-start;
 }
 
@@ -1457,6 +1458,7 @@ span.tooltip-text::before{
   font-style: normal;
   font-weight: 400;
   margin: 0;
+  margin-bottom: 13px;
 }
 
 .contacts-wrapper {
@@ -1473,11 +1475,18 @@ span.tooltip-text::before{
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
+  margin: 0;
+}
+
+.contacts-address-text{
+  margin-bottom: 24px;
 }
 
 .contacts-phone-text {
   font-size: 16px;
   font-weight: 400;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .contacts-working-hours {
