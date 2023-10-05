@@ -1765,7 +1765,8 @@ button.range-toggle:focus-visible{
   padding: 8px 16px;
   list-style-type: none;
   margin: 0;
-  margin-top: 8px;
+  margin-top: 10px;
+  margin-right: -5px;
 }
 
 .catalog-filter-list-fillers{
@@ -1779,7 +1780,7 @@ button.range-toggle:focus-visible{
 }
 
 .catalog-filter-title{
-  margin-left: 15px;
+  margin-left: 9px;
 }
 
 .select-control{
@@ -1800,7 +1801,7 @@ button.range-toggle:focus-visible{
 
 .button-light {
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   text-align: center;
   line-height: 20px;
@@ -1835,7 +1836,7 @@ button.range-toggle:focus-visible{
 .catalog-form {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 22px;
+  margin-bottom: 23px;
   align-items: flex-end;
 }
 
@@ -1990,6 +1991,7 @@ button.range-toggle:focus-visible{
   width: 480px;
   justify-content: flex-end;
   margin-left: auto;
+  margin-top: 12px;
 }
 
 .pagination-link {
