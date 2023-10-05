@@ -177,11 +177,14 @@
                 <h3 class="best-product-card best-product-card-title page-title">Карамельный пломбир с&nbsp;маршмеллоу</h3>
                 <p class="best-product-description">Необычный сладкий десерт с карамельным топпингом и кусочками зефира завоюет сердца сладкоежек всех возрастов.</p>
               </div>
-              <a class="best-product-card-button button-white button-white-loading" href="#">Заказать</a>
+
+              <!--Добавить ссылке класс button-white-loading для отображения кнопки ппри загрузке-->
+
+              <a class="best-product-card-button button-white" href="#">Заказать</a>
             </div>
             <div class="slider__images">
 
-              <!--Задать slider__image класс active для смены расположения картинок в слайдере-->
+              <!--Добавить slider__image класс active для смены расположения картинок в слайдере-->
 
               <div class="slider__image active">
                 <img class="product-slider-image product-card-image-active" src="images/ice-cream/ice-cream-1.png" width="327" height="507" alt="Пломбир с клубничным джемом">
@@ -238,12 +241,15 @@
             <li class="promotion-item promotion-item-raspberry">
               <h3 class="promotion-title title">Малинка даром!</h3>
               <p>При покупке 2 кг любого фруктового мороженого добавим в ваш заказ <br> банку малинового варенья бесплатно.</p>
-              <a class="promotion-button button-white button-white-loading" href="#">Хочу подарок</a>
+
+              <!--Добавить ссылкам классы button-white-loading и promotion-button-loading для отображения кнопки ппри загрузке-->
+
+              <a class="promotion-button button-white" href="#">Хочу подарок</a>
             </li>
             <li class="promotion-item promotion-item-marshmallow">
               <h3 class="promotion-title title">Маршмеллоу даром!</h3>
               <p>При покупке 2 кг пломбира добавим <br> в ваш заказ упаковку нежных зефирок совершенно бесплатно.</p>
-              <a class="promotion-button button-white button-white-loading" href="#">Хочу подарок</a>
+              <a class="promotion-button button-white" href="#">Хочу подарок</a>
             </li>
           </ul>
         </section>
@@ -355,6 +361,8 @@
                 <label for="newsletter-email" class="visually-hidden">Email</label>
                 <input class="field newsletter-form"  placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
 
+                <!--Добавить кнопке классы button-red-loading и newsletter-button-loading для отображения кнопки при загрузке-->
+
                 <button class="button newsletter-button button-red" type="submit">Отправить</button>
 
               </form>
@@ -407,6 +415,8 @@
                 </span>
                   <input class="form-item form-address" type="text" id="delivery-address" name="delivery-address" placeholder="ул. Большая Конюшенная, 19/8">
                 </div>
+
+                <!--Добавить кнопке класс button-red-loading для отображения кнопки при загрузке-->
 
                 <button class="button delivery-button button-red" type="submit">Отправить</button>
               </form>

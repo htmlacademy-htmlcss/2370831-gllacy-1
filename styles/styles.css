@@ -205,7 +205,6 @@ img {
   margin-right: 5px;
   border-radius: 50%;
   background-color: rgba(252, 252, 252, 0.30);
-  border: none;
   cursor: pointer;
   border: solid 1px transparent;
   padding: 0;
@@ -224,7 +223,7 @@ img {
 .slider__button:active{
   border-radius: 100px;
   background-color: rgba(252, 252, 252, 0.5);
-  border-color: rgba(252, 252, 252, 0.5);
+  border-color: transparent;
 }
 
 .slider__button:focus-visible{
@@ -1258,6 +1257,36 @@ input.error:hover{
   cursor: pointer;
 }
 
+.newsletter-button-loading{
+  margin-left: 155px;
+  margin-top: 19px;
+  padding-right: 54px;
+  background-image: url("../images/spinner.svg");
+  background-repeat: no-repeat;
+  background-position: 128px 15px;
+}
+
+.button-white-loading{
+  padding-right: 54px;
+  background-image: url("../images/spinner-black.svg");
+  background-repeat: no-repeat;
+  background-position: 115px 15px;
+}
+
+.promotion-button-loading{
+  padding-right: 54px;
+  background-image: url("../images/spinner-black.svg");
+  background-repeat: no-repeat;
+  background-position: 152px 15px;
+}
+
+.button-red-loading{
+  padding-right: 54px;
+  background-image: url("../images/spinner.svg");
+  background-repeat: no-repeat;
+  background-position: 128px 15px;
+}
+
 .delivery {
   display: flex;
   border-radius: 16px;
@@ -1625,7 +1654,8 @@ button.range-toggle:active{
 }
 
 button.range-toggle:focus-visible{
-
+  background-image: radial-gradient(#2D3440 2px, #FCFCFC 2px);
+  box-shadow: inset 2px solid #2D3440;
 }
 
 .toggle-max{
