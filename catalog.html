@@ -12,7 +12,9 @@
           <img src="images/gllacy-logo.svg" width="137" height="56" alt="Логотип Глейси">
         </a>
         <ul class="navigation-list">
-          <li class="navigation-item"> <!--Добавить к каталогу класс navigation-link-catalog для отображения выпадающего меню-->
+          <li class="navigation-item">
+
+            <!--Добавить к каталогу класс navigation-link-catalog для отображения выпадающего меню-->
 
             <a class="navigation-link navigation-link-catalog" href="catalog.html">
               Каталог
@@ -20,8 +22,8 @@
             <ul class="navigation-list-sub">
               <li class="navigation-item-sub">
                 <a class="navigation-link-sub" href="#" >Новинки</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="136" height="8" fill="none" viewBox="0 0 136 8"><path stroke="#B9B9B9" d="M16.5 3.5h103"/></svg>
               </li>
-              <svg xmlns="http://www.w3.org/2000/svg" width="136" height="8" fill="none" viewBox="0 0 136 8"><path stroke="#B9B9B9" d="M16.5 3.5h103"/></svg>
               <li class="navigation-item-sub">
                 <a class="navigation-link-sub navigation-link-sub-current" href="catalog.html" >Сливочное</a>
               </li>
@@ -185,9 +187,8 @@
                   <div class="range-wrapper-inputs">
                     <label class="catalog-filter-label">
                       Цена:
-                      <input class="range-input" type="number" value="100" name="min-price"> ₽
+                      <input class="range-input" type="number" value="100" name="min-price"> ₽ –
                     </label>
-                    <span>-</span>
                     <label class="catalog-filter-label catalog-filter-label-max">
                       <input class="range-input" type="number" value="500" name="max-price" style="width: 37px"> ₽
                     </label>
@@ -209,13 +210,13 @@
               <fieldset class="catalog-filter-group fat-filter">
                 <legend class="catalog-filter-title">Жирность</legend>
                 <ul class="catalog-filter-list catalog-filter-list-radio">
-                  <li class="catalog-filter-item">
+                  <li class="catalog-filter-item catalog-filter-item-radio">
                     <label class="control">
                       <input class="control-input visually-hidden" type="radio" name="fat-content" value="0%">
                       <span class="radio-mark">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="radio-mark-checked" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M14.667 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.334 0ZM8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm0-5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="radio-mark-checked" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M14.667 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.334 0ZM8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm0-5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd"/></g><defs><clipPath id="aa"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
 
-                        <svg xmlns="http://www.w3.org/2000/svg" class="radio-mark-null" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M8.002 1.333H8a6.666 6.666 0 0 0-.002 13.333H8a6.666 6.666 0 0 0 .002-13.333Zm0 14.666H8A8 8 0 1 1 7.995 0a8 8 0 0 1 .007 16Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="radio-mark-null" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M8.002 1.333H8a6.666 6.666 0 0 0-.002 13.333H8a6.666 6.666 0 0 0 .002-13.333Zm0 14.666H8A8 8 0 1 1 7.995 0a8 8 0 0 1 .007 16Z" clip-rule="evenodd"/></g><defs><clipPath id="ab"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
                       </span>
                       0%
                     </label>
@@ -224,9 +225,9 @@
                     <label class="control">
                       <input class="control-input visually-hidden" type="radio" name="fat-content" value="до 10%" checked>
                       <span class="radio-mark">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="radio-mark-checked" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M14.667 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.334 0ZM8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm0-5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="radio-mark-checked" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M14.667 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.334 0ZM8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm0-5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd"/></g><defs><clipPath id="ac"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
 
-                        <svg xmlns="http://www.w3.org/2000/svg" class="radio-mark-null" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M8.002 1.333H8a6.666 6.666 0 0 0-.002 13.333H8a6.666 6.666 0 0 0 .002-13.333Zm0 14.666H8A8 8 0 1 1 7.995 0a8 8 0 0 1 .007 16Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="radio-mark-null" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M8.002 1.333H8a6.666 6.666 0 0 0-.002 13.333H8a6.666 6.666 0 0 0 .002-13.333Zm0 14.666H8A8 8 0 1 1 7.995 0a8 8 0 0 1 .007 16Z" clip-rule="evenodd"/></g><defs><clipPath id="ad"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
                       </span>
                       до 10%
                     </label>
@@ -235,9 +236,9 @@
                     <label class="control">
                       <input class="control-input visually-hidden" type="radio" name="fat-content" value="до 30%">
                       <span class="radio-mark">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="radio-mark-checked" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M14.667 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.334 0ZM8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm0-5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="radio-mark-checked" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M14.667 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.334 0ZM8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm0-5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd"/></g><defs><clipPath id="ae"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
 
-                        <svg xmlns="http://www.w3.org/2000/svg" class="radio-mark-null" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M8.002 1.333H8a6.666 6.666 0 0 0-.002 13.333H8a6.666 6.666 0 0 0 .002-13.333Zm0 14.666H8A8 8 0 1 1 7.995 0a8 8 0 0 1 .007 16Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="radio-mark-null" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M8.002 1.333H8a6.666 6.666 0 0 0-.002 13.333H8a6.666 6.666 0 0 0 .002-13.333Zm0 14.666H8A8 8 0 1 1 7.995 0a8 8 0 0 1 .007 16Z" clip-rule="evenodd"/></g><defs><clipPath id="af"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
                       </span>
                       до 30%
                     </label>
@@ -246,9 +247,9 @@
                     <label class="control">
                       <input class="control-input visually-hidden" type="radio" name="fat-content" value="above-30%">
                       <span class="radio-mark">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="radio-mark-checked" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M14.667 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.334 0ZM8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm0-5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="radio-mark-checked" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M14.667 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.334 0ZM8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm0-5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd"/></g><defs><clipPath id="ag"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
 
-                        <svg xmlns="http://www.w3.org/2000/svg" class="radio-mark-null" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M8.002 1.333H8a6.666 6.666 0 0 0-.002 13.333H8a6.666 6.666 0 0 0 .002-13.333Zm0 14.666H8A8 8 0 1 1 7.995 0a8 8 0 0 1 .007 16Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="radio-mark-null" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M8.002 1.333H8a6.666 6.666 0 0 0-.002 13.333H8a6.666 6.666 0 0 0 .002-13.333Zm0 14.666H8A8 8 0 1 1 7.995 0a8 8 0 0 1 .007 16Z" clip-rule="evenodd"/></g><defs><clipPath id="ah"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
                       </span>
                       выше 30%
                     </label>
@@ -266,7 +267,7 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M1.61532 1.61526C1.7958 1.43471 2.04051 1.33333 2.29562 1.33333H11.2545C11.6227 1.33333 11.9212 1.03486 11.9212 0.666667C11.9212 0.298477 11.6227 0 11.2545 0H2.29562C1.68671 0 1.10279 0.241993 0.672314 0.672654C0.241845 1.1033 6.10352e-05 1.68733 6.10352e-05 2.29624V13.7033C6.10352e-05 14.3122 0.241845 14.8962 0.672314 15.3269C1.10279 15.7575 1.68671 15.9995 2.29562 15.9995H13.6978C14.3067 15.9995 14.8907 15.7575 15.3211 15.3269C15.7516 14.8962 15.9934 14.3122 15.9934 13.7033V7.99976C15.9934 7.63157 15.6949 7.3331 15.3267 7.3331C14.9585 7.3331 14.6601 7.63157 14.6601 7.99976V13.7033C14.6601 13.9588 14.5586 14.2037 14.3781 14.3843C14.1977 14.5648 13.9529 14.6662 13.6978 14.6662H2.29562C2.04051 14.6662 1.7958 14.5648 1.61532 14.3843C1.43484 14.2037 1.33339 13.9588 1.33339 13.7033V2.29624C1.33339 2.04077 1.43484 1.79582 1.61532 1.61526ZM15.8167 1.9404C16.0699 1.6731 16.0585 1.25115 15.7912 0.997933C15.5239 0.74472 15.1019 0.756136 14.8487 1.02343L7.61408 8.66042L5.78248 6.72695C5.52927 6.45966 5.10732 6.44824 4.84002 6.70145C4.57272 6.95467 4.56131 7.37662 4.81452 7.64392L7.1301 10.0883C7.256 10.2212 7.43101 10.2965 7.61408 10.2965C7.79715 10.2965 7.97216 10.2212 8.09806 10.0883L15.8167 1.9404Z" fill="#2D3440"/>
                         </svg>
 
-                        <svg xmlns="http://www.w3.org/2000/svg" class="control-mark-icon" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M1.615 1.615a.963.963 0 0 1 .68-.282h11.408c.242 0 .34.029.395.053.057.025.13.074.286.23a.91.91 0 0 1 .282.68v11.369a.963.963 0 0 1-.964 1H2.296a.963.963 0 0 1-.963-.963V2.296c0-.255.102-.5.282-.68Zm14.223 12.929a2.294 2.294 0 0 1-2.136 1.454H2.296A2.296 2.296 0 0 1 0 13.702V2.296A2.296 2.296 0 0 1 1.459.158.664.664 0 0 1 1.889 0h11.814c.337 0 .643.038.934.166.287.127.5.318.69.507.481.481.672 1.057.672 1.623V14.11c0 .166-.06.318-.16.435Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="control-mark-icon" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M1.615 1.615a.963.963 0 0 1 .68-.282h11.408c.242 0 .34.029.395.053.057.025.13.074.286.23a.91.91 0 0 1 .282.68v11.369a.963.963 0 0 1-.964 1H2.296a.963.963 0 0 1-.963-.963V2.296c0-.255.102-.5.282-.68Zm14.223 12.929a2.294 2.294 0 0 1-2.136 1.454H2.296A2.296 2.296 0 0 1 0 13.702V2.296A2.296 2.296 0 0 1 1.459.158.664.664 0 0 1 1.889 0h11.814c.337 0 .643.038.934.166.287.127.5.318.69.507.481.481.672 1.057.672 1.623V14.11c0 .166-.06.318-.16.435Z" clip-rule="evenodd"/></g><defs><clipPath id="ai"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
                       </span>
                       <span class="control-label">шоколадные</span>
                     </label>
@@ -278,7 +279,7 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M1.61532 1.61526C1.7958 1.43471 2.04051 1.33333 2.29562 1.33333H11.2545C11.6227 1.33333 11.9212 1.03486 11.9212 0.666667C11.9212 0.298477 11.6227 0 11.2545 0H2.29562C1.68671 0 1.10279 0.241993 0.672314 0.672654C0.241845 1.1033 6.10352e-05 1.68733 6.10352e-05 2.29624V13.7033C6.10352e-05 14.3122 0.241845 14.8962 0.672314 15.3269C1.10279 15.7575 1.68671 15.9995 2.29562 15.9995H13.6978C14.3067 15.9995 14.8907 15.7575 15.3211 15.3269C15.7516 14.8962 15.9934 14.3122 15.9934 13.7033V7.99976C15.9934 7.63157 15.6949 7.3331 15.3267 7.3331C14.9585 7.3331 14.6601 7.63157 14.6601 7.99976V13.7033C14.6601 13.9588 14.5586 14.2037 14.3781 14.3843C14.1977 14.5648 13.9529 14.6662 13.6978 14.6662H2.29562C2.04051 14.6662 1.7958 14.5648 1.61532 14.3843C1.43484 14.2037 1.33339 13.9588 1.33339 13.7033V2.29624C1.33339 2.04077 1.43484 1.79582 1.61532 1.61526ZM15.8167 1.9404C16.0699 1.6731 16.0585 1.25115 15.7912 0.997933C15.5239 0.74472 15.1019 0.756136 14.8487 1.02343L7.61408 8.66042L5.78248 6.72695C5.52927 6.45966 5.10732 6.44824 4.84002 6.70145C4.57272 6.95467 4.56131 7.37662 4.81452 7.64392L7.1301 10.0883C7.256 10.2212 7.43101 10.2965 7.61408 10.2965C7.79715 10.2965 7.97216 10.2212 8.09806 10.0883L15.8167 1.9404Z" fill="#2D3440"/>
                         </svg>
 
-                        <svg xmlns="http://www.w3.org/2000/svg" class="control-mark-icon" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M1.615 1.615a.963.963 0 0 1 .68-.282h11.408c.242 0 .34.029.395.053.057.025.13.074.286.23a.91.91 0 0 1 .282.68v11.369a.963.963 0 0 1-.964 1H2.296a.963.963 0 0 1-.963-.963V2.296c0-.255.102-.5.282-.68Zm14.223 12.929a2.294 2.294 0 0 1-2.136 1.454H2.296A2.296 2.296 0 0 1 0 13.702V2.296A2.296 2.296 0 0 1 1.459.158.664.664 0 0 1 1.889 0h11.814c.337 0 .643.038.934.166.287.127.5.318.69.507.481.481.672 1.057.672 1.623V14.11c0 .166-.06.318-.16.435Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="control-mark-icon" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M1.615 1.615a.963.963 0 0 1 .68-.282h11.408c.242 0 .34.029.395.053.057.025.13.074.286.23a.91.91 0 0 1 .282.68v11.369a.963.963 0 0 1-.964 1H2.296a.963.963 0 0 1-.963-.963V2.296c0-.255.102-.5.282-.68Zm14.223 12.929a2.294 2.294 0 0 1-2.136 1.454H2.296A2.296 2.296 0 0 1 0 13.702V2.296A2.296 2.296 0 0 1 1.459.158.664.664 0 0 1 1.889 0h11.814c.337 0 .643.038.934.166.287.127.5.318.69.507.481.481.672 1.057.672 1.623V14.11c0 .166-.06.318-.16.435Z" clip-rule="evenodd"/></g><defs><clipPath id="aga"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
                       </span>
                       <span class="control-label">сахарные посыпки</span>
                     </label>
@@ -290,7 +291,7 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M1.61532 1.61526C1.7958 1.43471 2.04051 1.33333 2.29562 1.33333H11.2545C11.6227 1.33333 11.9212 1.03486 11.9212 0.666667C11.9212 0.298477 11.6227 0 11.2545 0H2.29562C1.68671 0 1.10279 0.241993 0.672314 0.672654C0.241845 1.1033 6.10352e-05 1.68733 6.10352e-05 2.29624V13.7033C6.10352e-05 14.3122 0.241845 14.8962 0.672314 15.3269C1.10279 15.7575 1.68671 15.9995 2.29562 15.9995H13.6978C14.3067 15.9995 14.8907 15.7575 15.3211 15.3269C15.7516 14.8962 15.9934 14.3122 15.9934 13.7033V7.99976C15.9934 7.63157 15.6949 7.3331 15.3267 7.3331C14.9585 7.3331 14.6601 7.63157 14.6601 7.99976V13.7033C14.6601 13.9588 14.5586 14.2037 14.3781 14.3843C14.1977 14.5648 13.9529 14.6662 13.6978 14.6662H2.29562C2.04051 14.6662 1.7958 14.5648 1.61532 14.3843C1.43484 14.2037 1.33339 13.9588 1.33339 13.7033V2.29624C1.33339 2.04077 1.43484 1.79582 1.61532 1.61526ZM15.8167 1.9404C16.0699 1.6731 16.0585 1.25115 15.7912 0.997933C15.5239 0.74472 15.1019 0.756136 14.8487 1.02343L7.61408 8.66042L5.78248 6.72695C5.52927 6.45966 5.10732 6.44824 4.84002 6.70145C4.57272 6.95467 4.56131 7.37662 4.81452 7.64392L7.1301 10.0883C7.256 10.2212 7.43101 10.2965 7.61408 10.2965C7.79715 10.2965 7.97216 10.2212 8.09806 10.0883L15.8167 1.9404Z" fill="#2D3440"/>
                         </svg>
 
-                        <svg xmlns="http://www.w3.org/2000/svg" class="control-mark-icon" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M1.615 1.615a.963.963 0 0 1 .68-.282h11.408c.242 0 .34.029.395.053.057.025.13.074.286.23a.91.91 0 0 1 .282.68v11.369a.963.963 0 0 1-.964 1H2.296a.963.963 0 0 1-.963-.963V2.296c0-.255.102-.5.282-.68Zm14.223 12.929a2.294 2.294 0 0 1-2.136 1.454H2.296A2.296 2.296 0 0 1 0 13.702V2.296A2.296 2.296 0 0 1 1.459.158.664.664 0 0 1 1.889 0h11.814c.337 0 .643.038.934.166.287.127.5.318.69.507.481.481.672 1.057.672 1.623V14.11c0 .166-.06.318-.16.435Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="control-mark-icon" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M1.615 1.615a.963.963 0 0 1 .68-.282h11.408c.242 0 .34.029.395.053.057.025.13.074.286.23a.91.91 0 0 1 .282.68v11.369a.963.963 0 0 1-.964 1H2.296a.963.963 0 0 1-.963-.963V2.296c0-.255.102-.5.282-.68Zm14.223 12.929a2.294 2.294 0 0 1-2.136 1.454H2.296A2.296 2.296 0 0 1 0 13.702V2.296A2.296 2.296 0 0 1 1.459.158.664.664 0 0 1 1.889 0h11.814c.337 0 .643.038.934.166.287.127.5.318.69.507.481.481.672 1.057.672 1.623V14.11c0 .166-.06.318-.16.435Z" clip-rule="evenodd"/></g><defs><clipPath id="ak"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
                       </span>
                       <span class="control-label">фрукты</span>
                     </label>
@@ -302,7 +303,7 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M1.61532 1.61526C1.7958 1.43471 2.04051 1.33333 2.29562 1.33333H11.2545C11.6227 1.33333 11.9212 1.03486 11.9212 0.666667C11.9212 0.298477 11.6227 0 11.2545 0H2.29562C1.68671 0 1.10279 0.241993 0.672314 0.672654C0.241845 1.1033 6.10352e-05 1.68733 6.10352e-05 2.29624V13.7033C6.10352e-05 14.3122 0.241845 14.8962 0.672314 15.3269C1.10279 15.7575 1.68671 15.9995 2.29562 15.9995H13.6978C14.3067 15.9995 14.8907 15.7575 15.3211 15.3269C15.7516 14.8962 15.9934 14.3122 15.9934 13.7033V7.99976C15.9934 7.63157 15.6949 7.3331 15.3267 7.3331C14.9585 7.3331 14.6601 7.63157 14.6601 7.99976V13.7033C14.6601 13.9588 14.5586 14.2037 14.3781 14.3843C14.1977 14.5648 13.9529 14.6662 13.6978 14.6662H2.29562C2.04051 14.6662 1.7958 14.5648 1.61532 14.3843C1.43484 14.2037 1.33339 13.9588 1.33339 13.7033V2.29624C1.33339 2.04077 1.43484 1.79582 1.61532 1.61526ZM15.8167 1.9404C16.0699 1.6731 16.0585 1.25115 15.7912 0.997933C15.5239 0.74472 15.1019 0.756136 14.8487 1.02343L7.61408 8.66042L5.78248 6.72695C5.52927 6.45966 5.10732 6.44824 4.84002 6.70145C4.57272 6.95467 4.56131 7.37662 4.81452 7.64392L7.1301 10.0883C7.256 10.2212 7.43101 10.2965 7.61408 10.2965C7.79715 10.2965 7.97216 10.2212 8.09806 10.0883L15.8167 1.9404Z" fill="#2D3440"/>
                         </svg>
 
-                        <svg xmlns="http://www.w3.org/2000/svg" class="control-mark-icon" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M1.615 1.615a.963.963 0 0 1 .68-.282h11.408c.242 0 .34.029.395.053.057.025.13.074.286.23a.91.91 0 0 1 .282.68v11.369a.963.963 0 0 1-.964 1H2.296a.963.963 0 0 1-.963-.963V2.296c0-.255.102-.5.282-.68Zm14.223 12.929a2.294 2.294 0 0 1-2.136 1.454H2.296A2.296 2.296 0 0 1 0 13.702V2.296A2.296 2.296 0 0 1 1.459.158.664.664 0 0 1 1.889 0h11.814c.337 0 .643.038.934.166.287.127.5.318.69.507.481.481.672 1.057.672 1.623V14.11c0 .166-.06.318-.16.435Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="control-mark-icon" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M1.615 1.615a.963.963 0 0 1 .68-.282h11.408c.242 0 .34.029.395.053.057.025.13.074.286.23a.91.91 0 0 1 .282.68v11.369a.963.963 0 0 1-.964 1H2.296a.963.963 0 0 1-.963-.963V2.296c0-.255.102-.5.282-.68Zm14.223 12.929a2.294 2.294 0 0 1-2.136 1.454H2.296A2.296 2.296 0 0 1 0 13.702V2.296A2.296 2.296 0 0 1 1.459.158.664.664 0 0 1 1.889 0h11.814c.337 0 .643.038.934.166.287.127.5.318.69.507.481.481.672 1.057.672 1.623V14.11c0 .166-.06.318-.16.435Z" clip-rule="evenodd"/></g><defs><clipPath id="al"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
                       </span>
                       <span class="control-label">сиропы</span>
                     </label>
@@ -314,7 +315,7 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M1.61532 1.61526C1.7958 1.43471 2.04051 1.33333 2.29562 1.33333H11.2545C11.6227 1.33333 11.9212 1.03486 11.9212 0.666667C11.9212 0.298477 11.6227 0 11.2545 0H2.29562C1.68671 0 1.10279 0.241993 0.672314 0.672654C0.241845 1.1033 6.10352e-05 1.68733 6.10352e-05 2.29624V13.7033C6.10352e-05 14.3122 0.241845 14.8962 0.672314 15.3269C1.10279 15.7575 1.68671 15.9995 2.29562 15.9995H13.6978C14.3067 15.9995 14.8907 15.7575 15.3211 15.3269C15.7516 14.8962 15.9934 14.3122 15.9934 13.7033V7.99976C15.9934 7.63157 15.6949 7.3331 15.3267 7.3331C14.9585 7.3331 14.6601 7.63157 14.6601 7.99976V13.7033C14.6601 13.9588 14.5586 14.2037 14.3781 14.3843C14.1977 14.5648 13.9529 14.6662 13.6978 14.6662H2.29562C2.04051 14.6662 1.7958 14.5648 1.61532 14.3843C1.43484 14.2037 1.33339 13.9588 1.33339 13.7033V2.29624C1.33339 2.04077 1.43484 1.79582 1.61532 1.61526ZM15.8167 1.9404C16.0699 1.6731 16.0585 1.25115 15.7912 0.997933C15.5239 0.74472 15.1019 0.756136 14.8487 1.02343L7.61408 8.66042L5.78248 6.72695C5.52927 6.45966 5.10732 6.44824 4.84002 6.70145C4.57272 6.95467 4.56131 7.37662 4.81452 7.64392L7.1301 10.0883C7.256 10.2212 7.43101 10.2965 7.61408 10.2965C7.79715 10.2965 7.97216 10.2212 8.09806 10.0883L15.8167 1.9404Z" fill="#2D3440"/>
                         </svg>
 
-                        <svg xmlns="http://www.w3.org/2000/svg" class="control-mark-icon" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M1.615 1.615a.963.963 0 0 1 .68-.282h11.408c.242 0 .34.029.395.053.057.025.13.074.286.23a.91.91 0 0 1 .282.68v11.369a.963.963 0 0 1-.964 1H2.296a.963.963 0 0 1-.963-.963V2.296c0-.255.102-.5.282-.68Zm14.223 12.929a2.294 2.294 0 0 1-2.136 1.454H2.296A2.296 2.296 0 0 1 0 13.702V2.296A2.296 2.296 0 0 1 1.459.158.664.664 0 0 1 1.889 0h11.814c.337 0 .643.038.934.166.287.127.5.318.69.507.481.481.672 1.057.672 1.623V14.11c0 .166-.06.318-.16.435Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="control-mark-icon" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#2D3440" fill-rule="evenodd" d="M1.615 1.615a.963.963 0 0 1 .68-.282h11.408c.242 0 .34.029.395.053.057.025.13.074.286.23a.91.91 0 0 1 .282.68v11.369a.963.963 0 0 1-.964 1H2.296a.963.963 0 0 1-.963-.963V2.296c0-.255.102-.5.282-.68Zm14.223 12.929a2.294 2.294 0 0 1-2.136 1.454H2.296A2.296 2.296 0 0 1 0 13.702V2.296A2.296 2.296 0 0 1 1.459.158.664.664 0 0 1 1.889 0h11.814c.337 0 .643.038.934.166.287.127.5.318.69.507.481.481.672 1.057.672 1.623V14.11c0 .166-.06.318-.16.435Z" clip-rule="evenodd"/></g><defs><clipPath id="am"><path fill="#fff" d="M0 0h16v16H0z"/></clipPath></defs></svg>
                       </span>
                       <span class="control-label">джемы</span>
                     </label>
@@ -325,6 +326,7 @@
            </form>
         </section>
         <section class="catalog-products">
+          <h2 class="visually-hidden">Каталог товаров</h2>
           <ul class="product-list">
             <li class="product-card">
               <a class="product-card-link" href="product.html">
@@ -497,7 +499,7 @@
           </ul>
           <div class="pagination-area">
 
-            <!--Добавить кнопке класс button-white-loading для отображения кнопки при загрузке-->
+            <!--Добавить кнопке класс pagination-show-more-loading для отображения кнопки при загрузке-->
 
             <button class="button-white pagination-show-more" type="button">Показать еще</button>
             <ul class="pagination">
@@ -533,6 +535,7 @@
     </main>
     <footer class="page-footer inner-footer">
       <section class="social-contacts">
+        <h2 class="visually-hidden">Ссылки на социальные сети</h2>
         <ul class="social-list">
           <li class="social-item">
             <a class="social-link social-tg" href="https://t.me/htmlacademy">
@@ -555,6 +558,7 @@
         </ul>
       </section>
       <section class="suppliers">
+        <h2 class="visually-hidden">Дополнительная информация</h2>
         <ul class="navigation-list navigation-list-suppliers">
           <li class="navigation-item suppliers-item">
             <svg xmlns="http://www.w3.org/2000/svg" class="heart" width="16" height="16" fill="none" viewBox="0 0 16 16"><path fill="#2D3440" d="M13.89 2.994a3.667 3.667 0 0 0-5.186 0l-.706.707-.707-.707a3.668 3.668 0 0 0-5.187 5.187l.707.707 5.187 5.187 5.186-5.187.707-.707a3.667 3.667 0 0 0 0-5.187Z"/></svg>
