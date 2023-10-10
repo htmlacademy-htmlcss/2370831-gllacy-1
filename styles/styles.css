@@ -42,7 +42,7 @@ body {
   line-height: 22px;
   color: #2D3440;
   background-color: #FEAFC3;
-  min-width: 1170px;
+  min-width: 1366px;
 }
 
 .slider {
@@ -170,7 +170,7 @@ body.slider-1 {
   width: 38px;
   height: 38px;
   border: 2px solid #FCFCFC;
-  background-color: rgba(252, 252, 252, 0.30);
+  background-color: rgba(252, 252, 252, 0.3);
 }
 
 .pagination-slider:hover {
@@ -183,11 +183,11 @@ body.slider-1 {
 
 .pagination-slider:active {
   background-color: rgba(252, 252, 252, 0.5);
-  border-color: rgba(252, 252, 252, 0.50);
+  border-color: rgba(252, 252, 252, 0.5);
 }
 
 .pagination-slider:focus-visible {
-  background-color: rgba(252, 252, 252, 0.30);
+  background-color: rgba(252, 252, 252, 0.3);
   border-color: rgba(45, 52, 64, 1);
 }
 
@@ -204,7 +204,7 @@ img {
   height: 12px;
   margin-right: 5px;
   border-radius: 50%;
-  background-color: rgba(252, 252, 252, 0.30);
+  background-color: rgba(252, 252, 252, 0.3);
   cursor: pointer;
   border: solid 1px transparent;
   padding: 0;
@@ -215,7 +215,7 @@ img {
 }
 
 .slider__button:hover {
-  background-color: rgba(252, 252, 252, 0.30);
+  background-color: rgba(252, 252, 252, 0.3);
   border-radius: 100px;
   border-color: #FCFCFC;
 }
@@ -227,7 +227,7 @@ img {
 }
 
 .slider__button:focus-visible {
-  background-color: rgba(252, 252, 252, 0.30);
+  background-color: rgba(252, 252, 252, 0.3);
   border-color: #2D3440;
 }
 
@@ -384,7 +384,7 @@ img {
 }
 
 .navigation-link:hover {
-  background-color: rgba(252, 252, 252, 0.50);
+  background-color: rgba(252, 252, 252, 0.5);
 }
 
 .navigation-link:active {
@@ -392,7 +392,7 @@ img {
 }
 
 .navigation-link:focus-visible {
-  background-color: rgba(252, 252, 252, 0.50);
+  background-color: rgba(252, 252, 252, 0.5);
   border-color: #2D3440;
 }
 
@@ -400,7 +400,7 @@ img {
   position: relative;
   padding: 6px 16px;
   display: block;
-  background-color: rgba(252, 252, 252, 0.30);
+  background-color: rgba(252, 252, 252, 0.3);
 }
 
 .navigation-icon {
@@ -412,7 +412,7 @@ img {
 
 .navigation-link-search {
   padding: 0;
-  background-color: rgba(252, 252, 252, 0.30);
+  background-color: rgba(252, 252, 252, 0.3);
   width: 32px;
   height: 32px;
   border-radius: 27px;
@@ -423,7 +423,7 @@ img {
 }
 
 .navigation-link-search:hover {
-  background-color: rgba(252, 252, 252, 0.50);
+  background-color: rgba(252, 252, 252, 0.5);
 }
 
 .navigation-link-search:active {
@@ -431,7 +431,7 @@ img {
 }
 
 .navigation-link-search:focus-visible {
-  background-color: rgba(252, 252, 252, 0.50);
+  background-color: rgba(252, 252, 252, 0.5);
   border-color: #2D3440;
 }
 
@@ -445,7 +445,7 @@ img {
   border-radius: 4px;
   background-color: #FCFCFC;
   color: #B9B9B9;
-  box-shadow: 0 8px 16px 0px rgba(45, 52, 64, 0.12);
+  box-shadow: 0 8px 16px 0 rgba(45, 52, 64, 0.12);
   z-index: 6;
   display: none; /*Удалить для отображения поповера*/
 }
@@ -485,7 +485,7 @@ img {
 }
 
 .navigation-link-login:hover {
-  background-color: rgba(252, 252, 252, 0.50);
+  background-color: rgba(252, 252, 252, 0.5);
 }
 
 .navigation-link-login:active {
@@ -493,7 +493,7 @@ img {
 }
 
 .navigation-link-login:focus-visible {
-  background-color: rgba(252, 252, 252, 0.50);
+  background-color: rgba(252, 252, 252, 0.5);
   border-color: #2D3440;
 }
 
@@ -684,7 +684,7 @@ li.navigation-item:hover .navigation-link-catalog {
 }
 
 .navigation-link-basket:hover {
-  background-color: rgba(252, 252, 252, 0.50);
+  background-color: rgba(252, 252, 252, 0.5);
 }
 
 .navigation-link-basket:active {
@@ -868,7 +868,6 @@ li.navigation-item:hover .navigation-link-catalog {
   width: 24px;
   height: 24px;
   margin-right: 16px;
-
 }
 
 .best-product-social-link {
@@ -881,7 +880,7 @@ li.navigation-item:hover .navigation-link-catalog {
 
 .best-product-social-link:hover {
   background-color: rgba(45, 52, 64, 1);
-  box-shadow: 0 0 0 3px rgba(252, 252, 252, 0.30);
+  box-shadow: 0 0 0 3px rgba(252, 252, 252, 0.3);
 }
 
 .social-icon-top {
@@ -945,24 +944,24 @@ li.navigation-item:hover .navigation-link-catalog {
   padding: 12px 32px;
   border-radius: 26px;
   background: #FCFCFC;
-  box-shadow: 0 0 0 4px rgba(252, 252, 252, 0.40),0 4px 12px 0px rgba(45, 52, 64, 0.10);
+  box-shadow: 0 0 0 4px rgba(252, 252, 252, 0.4), 0 4px 12px 0 rgba(45, 52, 64, 0.1);
   line-height: 20px;
   display: inline-block;
 }
 
 .button-white:hover {
-  background-color: rgba(252, 252, 252, 0.40);
-  box-shadow: 0 0 0 4px #FCFCFC, 0 4px 12px 0 rgba(45, 52, 64, 0.10);
+  background-color: rgba(252, 252, 252, 0.4);
+  box-shadow: 0 0 0 4px #FCFCFC, 0 4px 12px 0 rgba(45, 52, 64, 0.1);
 }
 
 .button-white:active {
   background-color: #FCFCFC;
-  box-shadow: 0 0 0 2px #2D3440, 0 4px 12px 0 rgba(45, 52, 64, 0.10);
+  box-shadow: 0 0 0 2px #2D3440, 0 4px 12px 0 rgba(45, 52, 64, 0.1);
 }
 
 .button-white:disabled {
   background-color: #E7E7E7;
-  border: 4px solid rgba(252, 252, 252, 0.40);
+  border: 4px solid rgba(252, 252, 252, 0.4);
 }
 
 .button-red {
@@ -975,32 +974,32 @@ li.navigation-item:hover .navigation-link-catalog {
   padding: 12px 32px;
   border-radius: 26px;
   background: #FF2F64;
-  box-shadow: 0 0 0 4px rgba(255, 47, 100, 0.30),0 4px 12px 0 rgba(45, 52, 64, 0.10);
+  box-shadow: 0 0 0 4px rgba(255, 47, 100, 0.3), 0 4px 12px 0 rgba(45, 52, 64, 0.1);
   border: none;
   display: inline-block;
 }
 
 .button-red:hover {
-  background-color: rgba(252, 252, 252, 0.30);
-  box-shadow: 0 0 0 4px #FF2F64,0 4px 12px 0 rgba(45, 52, 64, 0.10);
+  background-color: rgba(252, 252, 252, 0.3);
+  box-shadow: 0 0 0 4px #FF2F64, 0 4px 12px 0 rgba(45, 52, 64, 0.1);
   color: #2D3440;
 }
 
 .button-red:active {
   background-color: #FEAFC3;
-  box-shadow: 0 0 0 2px #2D3440, 0 4px 12px 0 rgba(45, 52, 64, 0.10);
+  box-shadow: 0 0 0 2px #2D3440, 0 4px 12px 0 rgba(45, 52, 64, 0.1);
   color: #FCFCFC;
 }
 
 .button-red:focus-visible {
   background-color: #FF2F64;
-  box-shadow: 0 0 0 2px #2D3440, 0 4px 12px 0 rgba(45, 52, 64, 0.10);
+  box-shadow: 0 0 0 2px #2D3440, 0 4px 12px 0 rgba(45, 52, 64, 0.1);
   color: #FCFCFC;
 }
 
 .button-red:disabled {
   background-color: #B9B9B9;
-  border: 4px solid rgba(185, 185, 185, 0.30);
+  border: 4px solid rgba(185, 185, 185, 0.3);
   color: #565C66;
 }
 
@@ -1021,7 +1020,6 @@ li.navigation-item:hover .navigation-link-catalog {
   display: flex;
   flex-wrap: wrap;
   margin-top: -8px;
-
 }
 
 .best-product-description {
@@ -1131,14 +1129,14 @@ li.navigation-item:hover .navigation-link-catalog {
 .product-card-image {
   margin-top: -55px;
   border-radius: 50%;
-  filter: drop-shadow(0 4px 12px rgba(45, 52, 64, 0.10));
+  filter: drop-shadow(0 4px 12px rgba(45, 52, 64, 0.1));
   height: auto;
 }
 
 .product-slider-image {
   position: relative;
   border-radius: 50%;
-  filter: drop-shadow(0 4px 12px rgba(45, 52, 64, 0.10));
+  filter: drop-shadow(0 4px 12px rgba(45, 52, 64, 0.1));
   height: auto;
 }
 
@@ -1569,7 +1567,7 @@ span.tooltip-text::before {
 
 .social-link:hover {
   background-color: rgba(45, 52, 64, 1);
-  box-shadow: 0 0 0 3px rgba(252, 252, 252, 0.30);
+  box-shadow: 0 0 0 3px rgba(252, 252, 252, 0.3);
 }
 
 .social-icon {
@@ -1640,11 +1638,6 @@ span.tooltip-text::before {
   line-height: 20px;
 }
 
-.range-wrapper-inputs {
-  margin-bottom: 10px;
-  margin-right: 31px;
-}
-
 .range {
   background-color: rgba(252, 252, 252, 0.3);
   border-radius: 20px;
@@ -1707,6 +1700,8 @@ button.range-toggle:focus-visible {
 .range-wrapper-inputs {
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
+  margin-right: 31px;
 }
 
 .catalog-filter-label {
@@ -1760,9 +1755,10 @@ button.range-toggle:focus-visible {
 .breadcrumbs-item {
   font-weight: 700;
   margin-right: 28px;
+  position: relative;
 }
 
-.breadcrumbs-item::before {
+.breadcrumbs-item:not(:last-child)::before {
   content: "";
   position: absolute;
   right: -18px;
@@ -1774,10 +1770,6 @@ button.range-toggle:focus-visible {
 
 .breadcrumbs-link-current {
   border-bottom: 1px solid #2D3440;
-}
-
-.breadcrumbs-item:not(:last-child) {
-  position: relative;
 }
 
 .breadcrumbs-link-arrow {
@@ -1805,6 +1797,7 @@ button.range-toggle:focus-visible {
   margin-top: 10px;
   margin-right: -5px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -1851,7 +1844,7 @@ button.range-toggle:focus-visible {
   padding: 8px 32px;
   border-radius: 20px;
   border: 2px solid #FCFCFC;
-  background: rgba(252, 252, 252, 0.30);
+  background: rgba(252, 252, 252, 0.3);
   color: #2D3440;
   cursor: pointer;
   margin-bottom: 16px;
@@ -1861,16 +1854,16 @@ button.range-toggle:focus-visible {
 
 .button-light:hover {
   background-color: #FCFCFC;
-  border-color: rgba(252, 252, 252, 0.30);
+  border-color: rgba(252, 252, 252, 0.3);
 }
 
 .button-light:active {
-  background-color: rgba(252, 252, 252, 0.50);
-  border-color: rgba(252, 252, 252, 0.50);
+  background-color: rgba(252, 252, 252, 0.5);
+  border-color: rgba(252, 252, 252, 0.5);
 }
 
 .button-light:disabled {
-  background-color: rgba(252, 252, 252, 0.30);
+  background-color: rgba(252, 252, 252, 0.3);
   opacity: 0.4;
   border: 2px solid #FCFCFC;
 }
@@ -1880,11 +1873,6 @@ button.range-toggle:focus-visible {
   flex-wrap: wrap;
   margin-bottom: 30px;
   align-items: flex-end;
-}
-
-.catalog-filter-list {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .control-fillers {
@@ -1954,6 +1942,10 @@ button.range-toggle:focus-visible {
   opacity: 0.4;
 }
 
+.radio-mark:focus-visible path {
+  fill: #EA5454;
+}
+
 .control {
   margin-right: 31px;
   position: relative;
@@ -1989,7 +1981,7 @@ button.range-toggle:focus-visible {
 }
 
 .product-card-button:hover {
-  background-color: rgba(252, 252, 252, 0.30);
+  background-color: rgba(252, 252, 252, 0.3);
 }
 
 .product-card-button:active path {
@@ -2077,12 +2069,12 @@ button.range-toggle:focus-visible {
 }
 
 .pagination-link:hover {
-  background-color: rgba(252, 252, 252, 0.50);
+  background-color: rgba(252, 252, 252, 0.5);
 }
 
 .pagination-link:active {
-  background-color: rgba(252, 252, 252, 0.50);
-  border-color:  #FCFCFC;
+  background-color: rgba(252, 252, 252, 0.5);
+  border-color: #FCFCFC;
 }
 
 .pagination-prev {
@@ -2107,7 +2099,7 @@ button.range-toggle:focus-visible {
 }
 
 .inner-footer {
-  border-top: 1px solid rgba(252, 252, 252, 0.30);
+  border-top: 1px solid rgba(252, 252, 252, 0.3);
   padding-top: 48px;
   padding-bottom: 48px;
 }
