@@ -361,14 +361,14 @@ img {
   padding: 0;
   max-width: 575px;
   list-style-type: none;
-  margin-right: -7px;
+
   margin-left: -5px;
 }
 
 .navigation-list-icon {
-  min-width: 510px;
+
   margin-left: 15px;
-  margin-right: -241px;
+
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -558,12 +558,15 @@ img {
 .login-button {
   margin-top: 18px;
   margin-right: 23px;
+  cursor: pointer;
 }
 
 .login-footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
+  margin-left: 137px;
+  margin-top: -43px;
 }
 
 .popover-login-link {
@@ -895,8 +898,8 @@ li.navigation-item:hover .navigation-link-catalog {
   opacity: 0.5;
 }
 
-.best-product-social-link:focus-visible {
-  box-shadow: inset 0 0 0 0 #2D3440;
+.best-product-social-link:focus-visible rect {
+
 }
 
 .best-product-social-item:nth-child(3) {
@@ -1421,10 +1424,6 @@ button.tooltip-toggle {
   display: block;
 }
 
-button.tooltip-toggle + tooltip-text {
-  display: block;
-}
-
 .tooltip-icon {
   width: 100%;
   height: 100%;
@@ -1586,10 +1585,14 @@ span.tooltip-text::before {
   opacity: 0.5;
 }
 
+.social-link:focus-visible{
+  stroke: #242424;
+}
+
 
 .navigation-list-suppliers {
   display: grid;
-  grid-template-columns: max-content auto;
+  grid-template-columns: 1fr auto;
   gap: 8px 0;
   max-width: 1171px;
 }
