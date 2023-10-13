@@ -191,6 +191,10 @@ body.slider-1 {
   border-color: rgba(45, 52, 64, 1);
 }
 
+.pagination-slider:focus-visible path {
+  fill: rgba(45, 52, 64, 1);
+}
+
 .pagination-slider:disabled {
   opacity: 0.4;
 }
@@ -271,7 +275,8 @@ img {
 }
 
 .modal-container-close {
-  display: none; /*Удалить для отображения модального окна*/
+  display: none;
+  /*Удалить для отображения модального окна*/
 }
 
 .modal-item-field {
@@ -361,14 +366,14 @@ img {
   padding: 0;
   max-width: 575px;
   list-style-type: none;
-  margin-right: -7px;
+
   margin-left: -5px;
 }
 
 .navigation-list-icon {
-  min-width: 510px;
+
   margin-left: 15px;
-  margin-right: -241px;
+
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -447,7 +452,8 @@ img {
   color: #B9B9B9;
   box-shadow: 0 8px 16px 0 rgba(45, 52, 64, 0.12);
   z-index: 6;
-  display: none; /*Удалить для отображения поповера*/
+  display: none;
+  /*Удалить для отображения поповера*/
 }
 
 .popover-search-field {
@@ -558,12 +564,15 @@ img {
 .login-button {
   margin-top: 18px;
   margin-right: 23px;
+  cursor: pointer;
 }
 
 .login-footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
+  margin-left: 137px;
+  margin-top: -43px;
 }
 
 .popover-login-link {
@@ -657,7 +666,8 @@ li.navigation-item:hover .navigation-link-catalog {
   border-radius: 4px;
   background-color: #FCFCFC;
   box-shadow: 0 15px 40px 0 rgba(45, 52, 64, 0.12);
-  display: none; /*Удалить для отображения поповера*/
+  display: none;
+  /*Удалить для отображения поповера*/
 }
 
 .popover-cart-none-title {
@@ -730,7 +740,8 @@ li.navigation-item:hover .navigation-link-catalog {
   background-color: #FCFCFC;
   padding: 48px;
   box-shadow: 0 15px 40px 0 rgba(45, 52, 64, 0.12);
-  display: none; /*Удалить для отображения поповера*/
+  display: none;
+  /*Удалить для отображения поповера*/
 }
 
 .popover-open {
@@ -876,6 +887,16 @@ li.navigation-item:hover .navigation-link-catalog {
   height: 22px;
   border-radius: 50%;
   position: relative;
+}
+
+.best-product-social-link:focus-visible {
+  outline: none;
+  background-color: rgba(45, 52, 64, 1);
+}
+
+.best-product-social-link:focus-visible rect {
+  stroke: #2D3440;
+  stroke-opacity: 1;
 }
 
 .best-product-social-link:hover {
@@ -1417,10 +1438,6 @@ button.tooltip-toggle {
   display: block;
 }
 
-button.tooltip-toggle + tooltip-text {
-  display: block;
-}
-
 .tooltip-icon {
   width: 100%;
   height: 100%;
@@ -1582,10 +1599,19 @@ span.tooltip-text::before {
   opacity: 0.5;
 }
 
+.social-link:focus-visible {
+  outline: none;
+  background-color: rgba(45, 52, 64, 1);
+}
+
+.social-link:focus-visible rect {
+  stroke: #2D3440;
+  stroke-opacity: 1;
+}
 
 .navigation-list-suppliers {
   display: grid;
-  grid-template-columns: max-content auto;
+  grid-template-columns: 1fr auto;
   gap: 8px 0;
   max-width: 1171px;
 }
@@ -1749,7 +1775,7 @@ button.range-toggle:focus-visible {
   padding: 0;
   list-style-type: none;
   margin-bottom: 16px;
-  max-width: 1170px
+  max-width: 1170px;
 }
 
 .breadcrumbs-item {
@@ -1911,12 +1937,20 @@ button.range-toggle:focus-visible {
   opacity: 0.5;
 }
 
-.control-input:checked + .control-mark .control-mark-icon-checked {
+.control-mark:focus-visible path {
+  fill: rgba(252, 252, 252, 1);
+}
+
+.control-input:checked+.control-mark .control-mark-icon-checked {
   display: block;
 }
 
-.control-input:checked + .control-mark .control-mark-icon {
+.control-input:checked+.control-mark .control-mark-icon {
   display: none;
+}
+
+input:focus-visible~.control-mark path {
+  fill: rgba(252, 252, 252, 1);
 }
 
 .radio-mark {
@@ -1942,10 +1976,6 @@ button.range-toggle:focus-visible {
   opacity: 0.4;
 }
 
-.radio-mark:focus-visible path {
-  fill: #EA5454;
-}
-
 .control {
   margin-right: 31px;
   position: relative;
@@ -1956,12 +1986,16 @@ button.range-toggle:focus-visible {
   display: none;
 }
 
-.control-input:checked + .radio-mark .radio-mark-checked {
+.control-input:checked+.radio-mark .radio-mark-checked {
   display: block;
 }
 
-.control-input:checked + .radio-mark .radio-mark-null {
+.control-input:checked+.radio-mark .radio-mark-null {
   display: none;
+}
+
+input:focus-visible~.radio-mark path {
+  fill: rgba(252, 252, 252, 1);
 }
 
 .product-card-button {
@@ -2107,5 +2141,3 @@ button.range-toggle:focus-visible {
 .htmlacademy-link {
   border-bottom: solid 1px rgba(45, 52, 64, 0.5);
 }
-
-
