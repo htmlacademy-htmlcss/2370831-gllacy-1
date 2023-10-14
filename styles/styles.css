@@ -275,6 +275,7 @@ img {
 }
 
 .modal-container-close {
+  z-index: 10;
   display: none; /*Удалить для отображения модального окна*/
 }
 
@@ -784,8 +785,8 @@ li.navigation-item:hover .navigation-link-catalog {
 .popover-cart-title {
   font-size: 18px;
   margin-right: 59px;
-  margin-top: -2px;
-  margin-left: -4px;
+  margin-top: -1px;
+  margin-left: -6px;
   margin-bottom: 3px;
 }
 
@@ -793,7 +794,7 @@ li.navigation-item:hover .navigation-link-catalog {
   color: #b9b9b9;
   line-height: 20px;
   margin: 0;
-  margin-left: -4px;
+  margin-left: -6px;
 }
 
 .popover-content {
@@ -966,7 +967,6 @@ li.navigation-item:hover .navigation-link-catalog {
   position: relative;
   margin-right: -8px;
   margin-top: 5px;
-
 }
 
 .navigation-item-icon {
@@ -2164,6 +2164,7 @@ input:focus-visible ~ .radio-mark path {
   display: block;
   width: 24px;
   margin-left: 5px;
+  margin-right: -2px;
 }
 
 .inner-footer {
